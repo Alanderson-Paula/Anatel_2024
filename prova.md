@@ -150,7 +150,7 @@
   - [Ordem Econômica e Financeira na Constituição Federal de 1988.]()
 
 - ATUALIDADES (PROVA DISCURSIVA):
-  - Tópicos relevantes e atuais relacionados:,
+  - Tópicos relevantes e atuais relacionados:
       - [telecomunicações,]()
       - [conectividade,]()
       - [comunicações digitais.]()
