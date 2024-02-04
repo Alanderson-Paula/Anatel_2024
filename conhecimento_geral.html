@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>GERAL ANATEL 2024</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #mindmap {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.css" />
+</head>
+
+<body>
+  <svg id="mindmap"></svg>
+  <script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script>
+  <!-- <script>
+      (r => {
+        setTimeout(r);
+      })(() => {
+        const { markmap, mm } = window;
+        const toolbar = new markmap.Toolbar();
+        toolbar.attach(mm);
+        const el = toolbar.render();
+        el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+        document.body.append(el);
+      });
+    </script> -->
+  <script>
+    ((getMarkmap, getOptions, root, jsonOptions) => {
+      const markmap = getMarkmap();
+      window.mm = markmap.Markmap.create(
+        'svg#mindmap',
+        (getOptions || markmap.deriveOptions)(jsonOptions),
+        root
+      );
+    })(
+      () => window.markmap,
+      null,
+      {
+        type: 'heading',
+        depth: 0,
+        payload: { lines: [0, 1] },
+        content: 'CONHECIMENTOS BÁSICOS ANATEL - 2024',
+        children: [
+          {
+            type: 'list_item',
+            depth: 1,
+            payload: { lines: [1, 2] },
+            content: 'LÍNGUA PORTUGUESA:',
+            children: [
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [2, 3] },
+                content:
+                  '<a href="https://www.youtube.com/@profmazziotti/playlists">Compreensão e interpretação de textos de gêneros variados.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [3, 4] },
+                content:
+                  '<a href="https://www.youtube.com/@grancursostv/search?query=Reconhecimento%20de%20tipos%20e%20g%C3%AAneros%20textuais">Reconhecimento de tipos e gêneros textuais.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [4, 5] },
+                content: '<a href="https://www.youtube.com/@grancursostv/search?query=Dom%C3%ADnio%20da%20ortografia%20oficial">Domínio da ortografia oficial.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [5, 6] },
+                content:
+                  '<a href="https://www.youtube.com/@grancursostv/search?query=Dom%C3%ADnio%20dos%20mecanismos%20de%20coes%C3%A3o%20textual">Domínio dos mecanismos de coesão textual.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [6, 7] },
+                    content:
+                      '<a href="https://www.youtube.com/watch?v=X6d2RcIBfVs">Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [7, 8] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Emprego%20de%20tempos%20e%20modos%20verbais">Emprego de tempos e modos verbais.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [8, 9] },
+                content:
+                  '<a href="https://www.youtube.com/@grancursostv/search?query=Dom%C3%ADnio%20da%20estrutura%20morfossint%C3%A1tica%20do%20per%C3%ADodo">Domínio da estrutura morfossintática do período.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [9, 10] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Emprego%20das%20classes%20de%20palavras">Emprego das classes de palavras.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [10, 11] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Rela%C3%A7%C3%B5es%20de%20coordena%C3%A7%C3%A3o%20entre%20ora%C3%A7%C3%B5es%20e%20entre%20termos%20da%20ora%C3%A7%C3%A3o">Relações de coordenação entre orações e entre termos da oração.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [11, 12] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Rela%C3%A7%C3%B5es%20de%20subordina%C3%A7%C3%A3o%20entre%20ora%C3%A7%C3%B5es%20e%20entre%20termos%20da%20ora%C3%A7%C3%A3o">Relações de subordinação entre orações e entre termos da oração.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [12, 13] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Emprego%20dos%20sinais%20de%20pontua%C3%A7%C3%A3o">Emprego dos sinais de pontuação.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [13, 14] },
+                    content: '<a href="https://www.youtube.com/@grancursostv/search?query=Concord%C3%A2ncia%20verbal%20e%20nominal">Concordância verbal e nominal.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [14, 15] },
+                    content: '<a href="https://www.youtube.com/@grancursostv/search?query=Reg%C3%AAncia%20verbal%20e%20nominal">Regência verbal e nominal.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [15, 16] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Emprego%20do%20sinal%20indicativo%20de%20crase">Emprego do sinal indicativo de crase.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [16, 17] },
+                    content: '<a href="https://www.youtube.com/@grancursostv/search?query=Coloca%C3%A7%C3%A3o%20dos%20pronomes%20%C3%A1tonos">Colocação dos pronomes átonos.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [17, 18] },
+                content:
+                  '<a href="https://www.youtube.com/@grancursostv/search?query=Reescrita%20de%20frases%20e%20par%C3%A1grafos%20do%20texto">Reescrita de frases e parágrafos do texto.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [18, 19] },
+                    content: '<a href="https://www.youtube.com/@grancursostv/search?query=Significa%C3%A7%C3%A3o%20das%20palavras">Significação das palavras.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [19, 20] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Substitui%C3%A7%C3%A3o%20de%20palavras%20ou%20de%20trechos%20de%20texto">Substituição de palavras ou de trechos de texto.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [20, 21] },
+                    content:
+                      '<a href="https://www.youtube.com/@grancursostv/search?query=Reorganiza%C3%A7%C3%A3o%20da%20estrutura%20de%20ora%C3%A7%C3%B5es%20e%20de%20per%C3%ADodos%20do%20texto.">Reorganização da estrutura de orações e de períodos do texto.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [21, 22] },
+                    content:
+                      '<a href="https://www.youtube.com/@profmazziotti/search?query=%3EReescrita%20de%20textos%20de%20diferentes%20g%C3%AAneros%20e%20n%C3%ADveis%20de%20formalidade">Reescrita de textos de diferentes gêneros e níveis de formalidade.</a>',
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: 'list_item',
+            depth: 1,
+            payload: { lines: [23, 24] },
+            content: 'LÍNGUA INGLESA:',
+            children: [
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [24, 25] },
+                content: '<a href="https://www.youtube.com/@centrodemidias/search?query=lingua%20inglesa">Compreensão de textos variados:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [25, 26] },
+                    content:
+                      '<a href="https://www.youtube.com/@centrodemidias/search?query=lingua%20inglesa%20dom%C3%ADnio%20do%20vocabul%C3%A1rio%20e%20da%20estrutura%20da%20l%C3%ADngua">domínio do vocabulário e da estrutura da língua,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [26, 27] },
+                    content:
+                      '<a href="">ideias principais e secundárias,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [27, 28] },
+                    content: '<a href="">explícitas e implícitas,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [28, 29] },
+                    content:
+                      '<a href="">relações intratextuais e intertextuais.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [29, 30] },
+                content:
+                  '<a href="">Itens gramaticais relevantes para compreensão de conteúdos semânticos.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [30, 31] },
+                content:
+                  '<a href="">Conhecimento e uso das formas contemporâneas da linguagem inglesa.</a>',
+              },
+            ],
+          },
+          {
+            type: 'list_item',
+            depth: 1,
+            payload: { lines: [32, 33] },
+            content: 'REGULAÇÃO E AGÊNCIAS REGULADORAS:',
+            children: [
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [33, 34] },
+                content: '<a href="https://www.youtube.com/watch?v=tOii8aTl4g8">O papel regulador do Estado:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [34, 35] },
+                    content: '<a href="https://www.youtube.com/watch?v=QF3oUtKgKG8">pressupostos,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [35, 36] },
+                    content: '<a href="https://www.youtube.com/@GracianeSaliba/playlists">objetivos,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [36, 37] },
+                    content: '<a href="">instrumentos;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [37, 38] },
+                    content: '<a href="">conceitos básicos:</a>',
+                    children: [
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [38, 39] },
+                        content:
+                          '<a href="">regulação econômica e social;</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [39, 40] },
+                        content: '<a href="">externalidades,</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [40, 41] },
+                        content:
+                          '<a href="">bens públicos e bens comuns,</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [41, 42] },
+                        content: '<a href="">assimetria de informação;</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [42, 43] },
+                        content:
+                          '<a href="">falhas de mercado (barreiras de entrada);</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [43, 44] },
+                        content: '<a href="">Estado e regulação;</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [44, 45] },
+                        content: '<a href="">falhas de governo;</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [45, 46] },
+                        content: '<a href="">conceitos de regulação,</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [46, 47] },
+                        content:
+                          '<a href="">desregulação e re-regulação.</a>',
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [47, 48] },
+                content: '<a href="">Agências Reguladoras.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [48, 49] },
+                    content: '<a href="">Histórico,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [49, 50] },
+                    content: '<a href="">conceito,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [50, 51] },
+                    content: '<a href="">características e controle.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [51, 52] },
+                content:
+                  '<a href="">Entidades reguladoras federais no Brasil.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [52, 53] },
+                    content: '<a href="">Estrutura jurídica e funções.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [53, 54] },
+                    content:
+                      '<a href="">Autonomia administrativa e poder normativo.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [54, 55] },
+                content:
+                  '<a href="">Reforma do Estado e o papel das Agências Reguladoras.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [55, 56] },
+                content: '<a href="">Abordagens econômicas:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [56, 57] },
+                    content: '<a href="">teoria econômica da regulação,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [57, 58] },
+                    content: '<a href="">teoria da captura,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [58, 59] },
+                    content: '<a href="">teoria do agente principal.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [59, 60] },
+                content: '<a href="">Formas de regulação:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [60, 61] },
+                    content: '<a href="">regulação de preço;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [61, 62] },
+                    content: '<a href="">regulação de entrada;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [62, 63] },
+                    content: '<a href="">regulação de qualidade.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [63, 64] },
+                content: '<a href="">Boas práticas regulatórias:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [64, 65] },
+                    content: '<a href="">Análise do Impacto Regulatório.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [65, 66] },
+                    content:
+                      '<a href="">Análise de Resultado Regulatório (ARR).</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [66, 67] },
+                content:
+                  '<a href="">Agenda Regulatória e o processo de participação e controle social.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [67, 68] },
+                content: '<a href="">Regulação Responsiva.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [68, 69] },
+                content: '<a href="">Lei nº 10.871/2004.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [69, 70] },
+                content: '<a href="">Lei nº 13.848/2019.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [70, 71] },
+                content:
+                  '<a href="">Regulação do setor de telecomunicações no Brasil:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [71, 72] },
+                    content:
+                      '<a href="">Lei nº 9.472/1997 e suas alterações.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [72, 73] },
+                content:
+                  '<a href="">Decreto nº 2.338, de 7 de outubro de 1997 e suas alterações.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [73, 74] },
+                content:
+                  '<a href="">Resolução nº 612, de 29 de abril de 2013, e suas alterações.</a>',
+              },
+            ],
+          },
+          {
+            type: 'list_item',
+            depth: 1,
+            payload: { lines: [75, 76] },
+            content: '<a href="">NOÇÕES DE DIREITO ADMINISTRATIVO:</a>',
+            children: [
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [76, 77] },
+                content:
+                  '<a href="">Estado, governo e administração pública.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [77, 78] },
+                    content: '<a href="">Conceitos.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [78, 79] },
+                    content: '<a href="">Elementos.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [79, 80] },
+                content: '<a href="">Direito administrativo.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [80, 81] },
+                    content: '<a href="">Conceito.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [81, 82] },
+                    content: '<a href="">Objeto.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [82, 83] },
+                    content: '<a href="">Fontes.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [83, 84] },
+                content: '<a href="">Ato administrativo.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [84, 85] },
+                    content: '<a href="">Conceito,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [85, 86] },
+                    content: '<a href="">requisitos,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [86, 87] },
+                    content: '<a href="">atributos,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [87, 88] },
+                    content: '<a href="">classificação,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [88, 89] },
+                    content: '<a href="">espécies.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [89, 90] },
+                content: '<a href="">Extinção do ato administrativo:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [90, 91] },
+                    content: '<a href="">cassação,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [91, 92] },
+                    content: '<a href="">anulação,</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [92, 93] },
+                    content: '<a href="">revogação</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [93, 94] },
+                    content: '<a href="">convalidação.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [94, 95] },
+                content: '<a href="">Decadência administrativa.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [95, 96] },
+                content: '<a href="">Agentes públicos.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [96, 97] },
+                    content: '<a href="">Lei nº 8.112/1990.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [97, 98] },
+                    content:
+                      '<a href="">Disposições constitucionais aplicáveis.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [98, 99] },
+                content: '<a href="">Poderes da administração pública.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [99, 100] },
+                    content:
+                      '<a href="">Hierárquico, disciplinar, regulamentar e de polícia.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [100, 101] },
+                    content: '<a href="">Uso e abuso do poder.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [101, 102] },
+                content: '<a href="">Regime jurídico-administrativo.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [102, 103] },
+                    content: '<a href="">Conceito.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [103, 104] },
+                    content:
+                      '<a href="">Princípios expressos e implícitos da administração pública.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [104, 105] },
+                content: '<a href="">Serviços públicos.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [105, 106] },
+                    content: '<a href="">Conceito.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [106, 107] },
+                    content: '<a href="">Elementos constitutivos.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [107, 108] },
+                    content:
+                      '<a href="">Formas de prestação e meios de execução.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [108, 109] },
+                    content:
+                      '<a href="">Delegação: concessão, permissão e autorização.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [109, 110] },
+                    content: '<a href="">Classificação.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [110, 111] },
+                    content: '<a href="">Princípios.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [111, 112] },
+                content: '<a href="">Organização administrativa.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [112, 113] },
+                    content:
+                      '<a href="">Centralização, descentralização, concentração e desconcentração.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [113, 114] },
+                    content:
+                      '<a href="">Administração direta e indireta.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [114, 115] },
+                    content:
+                      '<a href="">Autarquias, fundações, empresas públicas e sociedades de economia mista.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [115, 116] },
+                    content:
+                      '<a href="">Entidades paraestatais e terceiro setor:</a>',
+                    children: [
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [116, 117] },
+                        content: '<a href="">serviços sociais autônomos,</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [117, 118] },
+                        content: '<a href="">entidades de apoio,</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [118, 119] },
+                        content: '<a href="">organizações sociais,</a>',
+                      },
+                      {
+                        type: 'list_item',
+                        depth: 4,
+                        payload: { lines: [119, 120] },
+                        content:
+                          '<a href="">organizações da sociedade civil de interesse público.</a>',
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [120, 121] },
+                content: '<a href="">Controle da administração pública.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [121, 122] },
+                    content:
+                      '<a href="">Controle exercido pela administração pública.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [122, 123] },
+                    content: '<a href="">Controle judicial.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [123, 124] },
+                    content: '<a href="">Controle legislativo.</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [124, 125] },
+                    content:
+                      '<a href="">Improbidade administrativa: Lei nº 8.429/1992 e suas alterações.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [125, 126] },
+                content: '<a href="">Processo administrativo.</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [126, 127] },
+                    content:
+                      '<a href="">Lei nº 9.784/1999 e suas alterações.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [127, 128] },
+                content:
+                  '<a href="">Código de ética Profissional do Serviço Público – Decreto nº 1.171/1994 e suas alterações.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [128, 129] },
+                content:
+                  '<a href="">Lei de Acesso à Informação - Lei nº 12.527, de 18 de novembro de 2011, e suas alterações.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [129, 130] },
+                content:
+                  '<a href="">Lei Geral de Proteção de Dados Pessoais - Lei nº 13.709, de 14 de agosto de 2018, e suas alterações.</a>',
+              },
+            ],
+          },
+          {
+            type: 'list_item',
+            depth: 1,
+            payload: { lines: [131, 132] },
+            content: '<a href="">NOÇÕES DE DIREITO CONSTITUCIONAL:</a>',
+            children: [
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [132, 133] },
+                content: '<a href="">Direitos e garantias fundamentais:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [133, 134] },
+                    content:
+                      '<a href="">direitos e deveres individuais e coletivos;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [134, 135] },
+                    content:
+                      '<a href="">direito à vida, à liberdade, à igualdade, à segurança e à propriedade;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [135, 136] },
+                    content: '<a href="">direitos sociais;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [136, 137] },
+                    content: '<a href="">nacionalidade;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [137, 138] },
+                    content: '<a href="">cidadania e direitos políticos;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [138, 139] },
+                    content: '<a href="">partidos políticos;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [139, 140] },
+                    content:
+                      '<a href="">garantias constitucionais individuais;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [140, 141] },
+                    content:
+                      '<a href="">garantias dos direitos coletivos, sociais e políticos.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [141, 142] },
+                content: '<a href="">Poder Executivo:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [142, 143] },
+                    content: '<a href="">forma e sistema de governo;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [143, 144] },
+                    content:
+                      '<a href="">chefia de Estado e chefia de governo.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [144, 145] },
+                content:
+                  '<a href="">Defesa do Estado e das instituições democráticas.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [145, 146] },
+                content: '<a href="">Ordem social:</a>',
+                children: [
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [146, 147] },
+                    content:
+                      '<a href="">base e objetivos da ordem social;</a>',
+                  },
+                  {
+                    type: 'list_item',
+                    depth: 3,
+                    payload: { lines: [147, 148] },
+                    content:
+                      '<a href="">seguridade social na Constituição Federal de 1988.</a>',
+                  },
+                ],
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [148, 149] },
+                content:
+                  '<a href="">Direitos humanos na Constituição Federal.</a>',
+              },
+              {
+                type: 'list_item',
+                depth: 2,
+                payload: { lines: [149, 150] },
+                content:
+                  '<a href="">Ordem Econômica e Financeira na Constituição Federal de 1988.</a>',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        colorFreezeLevel: 3,
+        maxWidth: 800,
+        initialExpandLevel: 1,
+      }
+    );
+  </script>
+</body>
+
+</html>
