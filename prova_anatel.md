@@ -24,6 +24,7 @@
     - [Reescrita de textos de diferentes gêneros e níveis de formalidade.](https://www.youtube.com/@profmazziotti/search?query=%3EReescrita%20de%20textos%20de%20diferentes%20g%C3%AAneros%20e%20n%C3%ADveis%20de%20formalidade)
 
 ### LÍNGUA INGLESA:
+
   - [Compreensão de textos variados:](https://www.youtube.com/@centrodemidias/search?query=lingua%20inglesa)
     - [domínio do vocabulário e da estrutura da língua,](https://www.youtube.com/@centrodemidias/search?query=lingua%20inglesa%20dom%C3%ADnio%20do%20vocabul%C3%A1rio%20e%20da%20estrutura%20da%20l%C3%ADngua)
     - [ideias principais e secundárias,]()
