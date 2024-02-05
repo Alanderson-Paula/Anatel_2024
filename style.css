@@ -1,6 +1,6 @@
 body {
-  background-color: #333232;
-  color: #ddd;
+  background-color: #323232;
+  color:#b8baba;
   margin: 0;
   padding: 0;
 }
@@ -8,7 +8,7 @@ body {
   --tw-text-opacity: 1;
   --tw-bg-opacity: 1;
   align-items: center;
-  background-color: #333232;
+  background-color: #323232;
   color: #fff;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
   border-radius: 0.25rem;
@@ -88,13 +88,29 @@ body {
 }
 
 .assinatura {
-  /* font: "Consolas"; */
-  font-family: 'Style Script';font-size: 20px;
+  font-family: 'Script MT Bold', sans-serif;
   position: absolute;
   right: 10px;
   bottom: 10px;
 }
-h4 {
+h4,
+h3 {
+  color:#b8baba;
   text-align: center;
   margin: 0;
+}
+
+a { color: inherit; }
+
+a:link {
+   color: #b8baba;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: #000000;
+}
+a:active {
+    color: blue;
 }
