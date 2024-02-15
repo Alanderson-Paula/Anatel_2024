@@ -280,3 +280,4 @@
 - [Soluções de big data.]()
 - [Arquiteturas de big data.]()
 - [Noções de computação em nuvem.]()
+
