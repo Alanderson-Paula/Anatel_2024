@@ -73,7 +73,7 @@
   - [Lei nº 13.848/2019.]()
   - [Regulação do setor de telecomunicações no Brasil:]()
     - [Lei nº 9.472/1997 e suas alterações.]()
-  - [Decreto nº 2.338, de 7 de outubro de 1997 e suas alterações.]()
+  - [Decreto nº 2.338, de 7 de outubro de 1997 e suas alterações.](https://www.planalto.gov.br/ccivil_03/decreto/d2338.htm#:~:text=D2338&text=DECRETO%20N%C2%BA%202.338%2C%20DE%207%20DE%20OUTUBRO%20DE%201997.&text=DECRETA-,Art.,e%20Fun%C3%A7%C3%B5es%20Comissionadas%20de%20Telecomunica%C3%A7%C3%B5es.)
   - [Resolução nº 612, de 29 de abril de 2013, e suas alterações.]()
 
 ### [NOÇÕES DE DIREITO ADMINISTRATIVO:](https://www.youtube.com/@DirecaoConcursos/search?query=NO%C3%87%C3%95ES%20DE%20DIREITO%20ADMINISTRATIVO)
